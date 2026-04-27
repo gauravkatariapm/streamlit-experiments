@@ -19,7 +19,7 @@ if prompt := st.chat_input("Ask me anything..."):
         st.write(prompt)
 
     llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash-lite",
         google_api_key=st.secrets["GOOGLE_API_KEY"],
         convert_system_message_to_human=True
     )

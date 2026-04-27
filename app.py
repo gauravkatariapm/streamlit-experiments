@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.schema import HumanMessage, AIMessage
+from langchain_core.messages import HumanMessage, AIMessage
 
 # Page config
 st.set_page_config(page_title="Chat Agent", page_icon="🤖")
